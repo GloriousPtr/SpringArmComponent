@@ -17,11 +17,11 @@ Platforms    : Windows/Mac/Linux/Android/IOS
 
 ## Features
 
-● Multiple collision detection using Raycasts
-● Collision test resolution for different levels of preciseness
-● TPS camera movement integrated
-● Takes a minute to setup
-● Fully commented code for better understanding
+- Multiple collision detection using Raycasts
+- Collision test resolution for different levels of preciseness
+- TPS camera movement integrated
+- Takes a minute to setup
+- Fully commented code for better understanding
 
 
 ## Getting Started
@@ -44,6 +44,7 @@ Just drag and drop the SpringArm prefab from Prefabs folder to Hierarchy and del
 - Movement Smooth Time : The camera lag time while following the target.
 
 - Target Arm Length : Maximum distance to which the camera can move to behind the target. (Red line)
+
 ![Image](https://github.com/MohitSethi99/SpringArmComponent/blob/master/Documentation/Length.PNG)
 
 - Socket Offset : Offset for the camera from the SpringArm (Socket is the position where camera will be).
@@ -53,6 +54,7 @@ Just drag and drop the SpringArm prefab from Prefabs folder to Hierarchy and del
 - Do Collision Test : Turn On or Off collision tests.
 
 - Collision Test Resolution : The count of rays raycasting from the SpringArm position to Camera position also referred as probe.
+
 ![Image](https://github.com/MohitSethi99/SpringArmComponent/blob/master/Documentation/4Res.PNG)
 Resolution - 4
 
