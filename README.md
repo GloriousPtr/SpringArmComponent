@@ -56,12 +56,15 @@ Just drag and drop the SpringArm prefab from Prefabs folder to Hierarchy and del
 - Collision Test Resolution : The count of rays raycasting from the SpringArm position to Camera position also referred as probe.
 
 ![Image](https://github.com/MohitSethi99/SpringArmComponent/blob/master/Documentation/4Res.PNG)
+
 Resolution - 4
 
 ![Image](https://github.com/MohitSethi99/SpringArmComponent/blob/master/Documentation/20Res.PNG)
+
 Resolution - 20
 
 - Collision Probe Size : Radius of collision (Green sphere).
+
 ![Image](https://github.com/MohitSethi99/SpringArmComponent/blob/master/Documentation/Probe.PNG)
 
 - Collision Smooth Time : The camera lag time while moving for collision tests.
