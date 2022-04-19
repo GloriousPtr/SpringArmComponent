@@ -1,18 +1,17 @@
-# SpringArmComponent
+<h1 align="center" style="border-bottom: none;">
+  <a href="https://github.com/MohitSethi99/SpringArmComponent/">Spring Arm Component for Unity</a>
+</h1>
+
+<p align="center">
+  <img alt="platforms" src="https://img.shields.io/badge/platform-Unity-blue?style=flat-square"/>
+  <img alt="GitHub" src="https://img.shields.io/github/license/MohitSethi99/SpringArmComponent?color=blue&style=flat-square">
+  <img alt="size" src="https://img.shields.io/github/repo-size/MohitSethi99/SpringArmComponent?style=flat-square"/>
+  <br/>
+</p>
+
+Recreation of Unreal's Spring Arm Component in Unity.
 
 Spring Arm Component is a solution for cameras to expand/retract based on gameplay situations. Typically when you add a Camera to a character for the purposes of creating a third person perspective. Spring Arm automatically controls how the camera handles situations where it becomes obstructed by level geometry or other objects in the level.
-
-Thanks for checking out the project!
-
-> This framework will remain `Open Source`
-
-## Status and prerequisites
-
-Current status at a glance:
-```
-Unity version: 2020.1.3f1 and up (It should work just fine for any Unity version from 2018.x onwards, couldn't test 2017.x or lower)
-Platforms    : Windows/Mac/Linux/Android/IOS
-```
 
 
 ## Features
