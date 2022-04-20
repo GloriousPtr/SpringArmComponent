@@ -1,5 +1,8 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [ExecuteAlways]
 public class SpringArm : MonoBehaviour
@@ -91,6 +94,7 @@ public class SpringArm : MonoBehaviour
         transform.position = Vector3.SmoothDamp(transform.position, target.position + targetOffset, ref moveVelocity, movementSmoothTime);
     }
 
+#if UNITY_EDITOR
     private void OnDrawGizmosSelected()
     {
         if(!visualDebugging)
@@ -111,7 +115,8 @@ public class SpringArm : MonoBehaviour
         if(showCollisionProbe)
             Handles.SphereHandleCap(0, socketPosition, Quaternion.identity, 2 * collisionProbeSize, EventType.Repaint);
     }
-
+#endif
+    
     /// <summary>
     /// Checks for collisions and fill the raycastPositions and hits array
     /// </summary>
