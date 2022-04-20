@@ -3,6 +3,7 @@
 </h1>
 
 [![Build Status](https://github.com/MohitSethi99/SpringArmComponent/workflows/build/badge.svg)](https://github.com/MohitSethi99/SpringArmComponent/actions?workflow=build)
+[![CodeFactor](https://www.codefactor.io/repository/github/mohitsethi99/springarmcomponent/badge)](https://www.codefactor.io/repository/github/mohitsethi99/springarmcomponent)
 
 <p align="center">
   <img alt="platforms" src="https://img.shields.io/badge/platform-Unity-blue?style=flat-square"/>
