@@ -131,7 +131,7 @@ public class SpringArm : MonoBehaviour
             // Calculate the local position of a point w.r.t angle
             Vector3 raycastLocalEndPoint = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0) * collisionProbeSize;
             // Convert it to world space by offsetting it by origin: endPoint, and push in the array
-            raycastPositions[i] = endPoint + trans.rotation * raycastLocalEndPoint;
+            raycastPositions[i] = endPoint + (trans.rotation * raycastLocalEndPoint);
             // Sets the hit struct if collision is detected between this gameobject's position and calculated raycastPosition
             Physics.Linecast(trans.position, raycastPositions[i], out hits[i], collisionLayerMask);
         }
@@ -147,7 +147,7 @@ public class SpringArm : MonoBehaviour
 
         // offset a point in z direction of targetArmLength by socket offset and translating it into world space.
         Vector3 targetArmOffset = socketOffset - new Vector3(0, 0, targetArmLength);
-        endPoint = trans.position + trans.rotation * targetArmOffset;
+        endPoint = trans.position + (trans.rotation * targetArmOffset);
         
         // if collisionTest is enabled
         if (doCollisionTest)
