@@ -1,11 +1,11 @@
-<h1 align="center" style="border-bottom: none;">
+<h1 align="left" style="border-bottom: none;">
   <a href="https://github.com/MohitSethi99/SpringArmComponent/">Spring Arm Component for Unity</a>
 </h1>
 
 [![Build Status](https://github.com/MohitSethi99/SpringArmComponent/workflows/build/badge.svg)](https://github.com/MohitSethi99/SpringArmComponent/actions?workflow=build)
 [![CodeFactor](https://www.codefactor.io/repository/github/mohitsethi99/springarmcomponent/badge)](https://www.codefactor.io/repository/github/mohitsethi99/springarmcomponent)
 
-<p align="center">
+<p align="left">
   <img alt="platforms" src="https://img.shields.io/badge/platform-Unity-blue?style=flat-square"/>
   <img alt="GitHub" src="https://img.shields.io/github/license/MohitSethi99/SpringArmComponent?color=blue&style=flat-square">
   <img alt="size" src="https://img.shields.io/github/repo-size/MohitSethi99/SpringArmComponent?style=flat-square"/>
